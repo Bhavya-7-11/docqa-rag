@@ -1,0 +1,13 @@
+[
+  {"question": "How many days of annual leave do employees get?", "expected_source": "leave_policy.md", "expected_keywords": ["24"]},
+  {"question": "How many unused leave days can I carry over?", "expected_source": "leave_policy.md", "expected_keywords": ["5"]},
+  {"question": "How long is parental leave for primary caregivers?", "expected_source": "leave_policy.md", "expected_keywords": ["16 weeks"]},
+  {"question": "What is the minimum password length?", "expected_source": "security_policy.md", "expected_keywords": ["14"]},
+  {"question": "How quickly must a security incident be reported?", "expected_source": "security_policy.md", "expected_keywords": ["1 hour"]},
+  {"question": "How often is production access reviewed?", "expected_source": "security_policy.md", "expected_keywords": ["quarter"]},
+  {"question": "What are the core working hours?", "expected_source": "onboarding.md", "expected_keywords": ["11:00", "16:00"]},
+  {"question": "How long is the probation period?", "expected_source": "onboarding.md", "expected_keywords": ["3 months"]},
+  {"question": "Who answers my questions during the first month?", "expected_source": "onboarding.md", "expected_keywords": ["buddy"]},
+  {"question": "What is the company's stock ticker symbol?", "expected_source": null, "expected_keywords": []},
+  {"question": "What is the office wifi password?", "expected_source": null, "expected_keywords": []}
+]

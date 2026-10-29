@@ -1,0 +1,272 @@
+[
+  {
+    "id": "A01",
+    "question": "Who approves access requests?",
+    "expected_source": "access_management.md",
+    "evidence": "Access requests require manager approval"
+  },
+  {
+    "id": "A02",
+    "question": "How long does privileged access last?",
+    "expected_source": "access_management.md",
+    "evidence": "Privileged access expires after 12 hours"
+  },
+  {
+    "id": "A03",
+    "question": "When are dormant accounts disabled?",
+    "expected_source": "access_management.md",
+    "evidence": "Dormant accounts are disabled after 45 days"
+  },
+  {
+    "id": "A04",
+    "question": "How often are access audits performed?",
+    "expected_source": "access_management.md",
+    "evidence": "Access audits occur every 60 days"
+  },
+  {
+    "id": "A05",
+    "question": "How frequently do database snapshots run?",
+    "expected_source": "backup_recovery.md",
+    "evidence": "Database snapshots run every 6 hours"
+  },
+  {
+    "id": "A06",
+    "question": "How long are backups retained?",
+    "expected_source": "backup_recovery.md",
+    "evidence": "Backup retention lasts 35 days"
+  },
+  {
+    "id": "A07",
+    "question": "How often are recovery drills held?",
+    "expected_source": "backup_recovery.md",
+    "evidence": "Recovery drills happen every quarter"
+  },
+  {
+    "id": "A08",
+    "question": "What is the critical recovery target?",
+    "expected_source": "backup_recovery.md",
+    "evidence": "Critical recovery target is 90 minutes"
+  },
+  {
+    "id": "A09",
+    "question": "Who is paged for severity one incidents?",
+    "expected_source": "incident_response.md",
+    "evidence": "Severity one incidents page the on-call engineer immediately"
+  },
+  {
+    "id": "A10",
+    "question": "How often are customer status updates sent?",
+    "expected_source": "incident_response.md",
+    "evidence": "Customer status updates are issued every 30 minutes"
+  },
+  {
+    "id": "A11",
+    "question": "When are incident reports due?",
+    "expected_source": "incident_response.md",
+    "evidence": "Incident reports are due within 3 business days"
+  },
+  {
+    "id": "A12",
+    "question": "Who owns escalation decisions?",
+    "expected_source": "incident_response.md",
+    "evidence": "Incident commanders own escalation decisions"
+  },
+  {
+    "id": "A13",
+    "question": "When do customer exports expire?",
+    "expected_source": "data_retention.md",
+    "evidence": "Customer exports expire after 14 days"
+  },
+  {
+    "id": "A14",
+    "question": "How long are application logs retained?",
+    "expected_source": "data_retention.md",
+    "evidence": "Application logs are retained for 120 days"
+  },
+  {
+    "id": "A15",
+    "question": "How fast are deletion requests processed?",
+    "expected_source": "data_retention.md",
+    "evidence": "Deletion requests are processed within 21 days"
+  },
+  {
+    "id": "A16",
+    "question": "What suspends automated deletion?",
+    "expected_source": "data_retention.md",
+    "evidence": "Legal holds suspend automated deletion"
+  },
+  {
+    "id": "A17",
+    "question": "What happens before contracting new vendors?",
+    "expected_source": "vendor_security.md",
+    "evidence": "New vendors complete security review before contracting"
+  },
+  {
+    "id": "A18",
+    "question": "How often are high risk vendors reassessed?",
+    "expected_source": "vendor_security.md",
+    "evidence": "High risk vendors are reassessed every 6 months"
+  },
+  {
+    "id": "A19",
+    "question": "How quickly must vendor breaches be reported?",
+    "expected_source": "vendor_security.md",
+    "evidence": "Vendor breaches must be reported within 8 hours"
+  },
+  {
+    "id": "A20",
+    "question": "When is vendor access revoked?",
+    "expected_source": "vendor_security.md",
+    "evidence": "Vendor access is revoked at contract termination"
+  },
+  {
+    "id": "A21",
+    "question": "How many approvals do production deploys require?",
+    "expected_source": "deployment.md",
+    "evidence": "Production deploys require two independent approvals"
+  },
+  {
+    "id": "A22",
+    "question": "How quickly must emergency rollbacks start?",
+    "expected_source": "deployment.md",
+    "evidence": "Emergency rollbacks start within 15 minutes"
+  },
+  {
+    "id": "A23",
+    "question": "When do release freezes begin?",
+    "expected_source": "deployment.md",
+    "evidence": "Release freezes begin on the last Friday of each quarter"
+  },
+  {
+    "id": "A24",
+    "question": "What percentage of traffic receives canary deployments initially?",
+    "expected_source": "deployment.md",
+    "evidence": "Canary deployments initially reach 5 percent of traffic"
+  },
+  {
+    "id": "A25",
+    "question": "How quickly do priority one tickets receive a response?",
+    "expected_source": "support.md",
+    "evidence": "Priority one tickets receive a response within 20 minutes"
+  },
+  {
+    "id": "A26",
+    "question": "What hours does standard support operate?",
+    "expected_source": "support.md",
+    "evidence": "Standard support operates from 08:00 to 18:00 UTC"
+  },
+  {
+    "id": "A27",
+    "question": "When are support cases escalated to engineering?",
+    "expected_source": "support.md",
+    "evidence": "Escalations transfer to engineering after 4 hours"
+  },
+  {
+    "id": "A28",
+    "question": "How long are support transcripts stored?",
+    "expected_source": "support.md",
+    "evidence": "Support transcripts are stored for 180 days"
+  },
+  {
+    "id": "A29",
+    "question": "How often is security awareness training repeated?",
+    "expected_source": "training.md",
+    "evidence": "Security awareness training repeats every 9 months"
+  },
+  {
+    "id": "A30",
+    "question": "When must new hires finish privacy training?",
+    "expected_source": "training.md",
+    "evidence": "New hires finish privacy training within 10 days"
+  },
+  {
+    "id": "A31",
+    "question": "How often are phishing simulations conducted?",
+    "expected_source": "training.md",
+    "evidence": "Phishing simulations are conducted monthly"
+  },
+  {
+    "id": "A32",
+    "question": "Who approves training exceptions?",
+    "expected_source": "training.md",
+    "evidence": "Training exceptions require compliance approval"
+  },
+  {
+    "id": "A33",
+    "question": "What is the daily meal reimbursement cap?",
+    "expected_source": "expenses.md",
+    "evidence": "Meal reimbursements are capped at 65 dollars per day"
+  },
+  {
+    "id": "A34",
+    "question": "How soon must expense claims be submitted?",
+    "expected_source": "expenses.md",
+    "evidence": "Expense claims must be submitted within 20 days"
+  },
+  {
+    "id": "A35",
+    "question": "Who approves international travel?",
+    "expected_source": "expenses.md",
+    "evidence": "International travel requires director approval"
+  },
+  {
+    "id": "A36",
+    "question": "When are receipts mandatory?",
+    "expected_source": "expenses.md",
+    "evidence": "Receipts are mandatory for purchases over 25 dollars"
+  },
+  {
+    "id": "U01",
+    "question": "What is the company stock ticker symbol?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U02",
+    "question": "What is the office Wi-Fi password?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U03",
+    "question": "Who won the company chess tournament in 2023?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U04",
+    "question": "What is the CEO’s favorite restaurant?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U05",
+    "question": "What is the company’s cryptocurrency wallet address?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U06",
+    "question": "Which employees own electric cars?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U07",
+    "question": "What is the secret admin recovery code?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U08",
+    "question": "How much did the company earn in 2021?",
+    "expected_source": null,
+    "evidence": null
+  },
+  {
+    "id": "U09",
+    "question": "What is the company headquarters street address?",
+    "expected_source": null,
+    "evidence": null
+  }
+]
